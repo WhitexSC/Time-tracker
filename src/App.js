@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import TableForm from './TableForm';
-import { Table } from 'reactstrap';
 import Middleware from './Middleware'
-import Pagination from "react-js-pagination";
 import 'bootstrap/dist/css/bootstrap.css';
 import PaginationWrapper from './PaginationWrapper'
-//import '../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
 
 class App extends Component {
   constructor(props){

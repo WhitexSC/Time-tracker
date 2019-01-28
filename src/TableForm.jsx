@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-// import {BootstrapTable, TableHeaderColumn} from 'react-bootstrap-table';
-// import ReactDOM from 'react-dom';
-import { Table } from 'reactstrap';
 
 export default class TableForm extends Component{
 	constructor(props){

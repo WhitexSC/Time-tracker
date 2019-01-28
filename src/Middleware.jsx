@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import TableForm from './TableForm';
 import { Table } from 'reactstrap';
-import Pagination from "react-js-pagination";
 
 export default class Middleware extends Component{
 	state ={};
@@ -29,7 +27,7 @@ export default class Middleware extends Component{
 		let data = this.props.bigInfo.map((data, index) =>{
 		let entry = (data.time_entry_type === null) ? 'Null' : data.time_entry_type.name;
 		return (
-			<tr scope="row" key={index}>
+			<tr key={index}>
 				<th>{index+1}</th>
 				<th><a href="#" onClick={e => this.sortByName(e, index)}>{data.user.full_name}</a></th>
 				<th>{data.date}</th>
